@@ -1,0 +1,100 @@
+{
+  "sites": [
+    {
+      "key": "k4vm",
+      "name": "4K影视",
+      "type": 9,
+      "api": "kazumi://www.4kvm.tv",
+      "ext": {
+        "name": "4K影视",
+        "searchMode": "web",
+        "chapterMode": "web",
+        "category": "movie",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+        "searchList": "//a[@data-vod and starts-with(@href,'/play/')]",
+        "searchName": ".//h3|.//img[@alt]",
+        "searchResult": ".",
+        "searchPic": ".//img",
+        "chapterRoads": "//div[.//a[@data-line and @data-episode and @dataid]][not(.//div[.//a[@data-line and @data-episode and @dataid]])]",
+        "chapterResult": ".//a[@data-line and @data-episode and @dataid]",
+        "baseURL": "https://www.4kvm.tv",
+        "searchURL": "https://www.4kvm.tv/search?q=@keyword"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "k4vm_me",
+      "name": "4K影视②",
+      "type": 9,
+      "api": "kazumi://www.4kvm.me",
+      "ext": {
+        "name": "4K影视",
+        "searchMode": "web",
+        "chapterMode": "web",
+        "category": "movie",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+        "searchList": "//a[@data-vod and starts-with(@href,'/play/')]",
+        "searchName": ".//h3|.//img[@alt]",
+        "searchResult": ".",
+        "searchPic": ".//img",
+        "chapterRoads": "//div[.//a[@data-line and @data-episode and @dataid]][not(.//div[.//a[@data-line and @data-episode and @dataid]])]",
+        "chapterResult": ".//a[@data-line and @data-episode and @dataid]",
+        "baseURL": "https://www.4kvm.me",
+        "searchURL": "https://www.4kvm.me/search?q=@keyword"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "k4vm_net",
+      "name": "4K影视③",
+      "type": 9,
+      "api": "kazumi://www.4kvm.net",
+      "ext": {
+        "name": "4K影视",
+        "searchMode": "web",
+        "chapterMode": "web",
+        "category": "movie",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+        "searchList": "//a[@data-vod and starts-with(@href,'/play/')]",
+        "searchName": ".//h3|.//img[@alt]",
+        "searchResult": ".",
+        "searchPic": ".//img",
+        "chapterRoads": "//div[.//a[@data-line and @data-episode and @dataid]][not(.//div[.//a[@data-line and @data-episode and @dataid]])]",
+        "chapterResult": ".//a[@data-line and @data-episode and @dataid]",
+        "baseURL": "https://www.4kvm.net",
+        "searchURL": "https://www.4kvm.net/search?q=@keyword"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "k4vm_s",
+      "name": "4K影视④",
+      "type": 9,
+      "api": "kazumi://www.4kvms.com",
+      "ext": {
+        "name": "4K影视",
+        "searchMode": "web",
+        "chapterMode": "web",
+        "category": "movie",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+        "searchList": "//a[@data-vod and starts-with(@href,'/play/')]",
+        "searchName": ".//h3|.//img[@alt]",
+        "searchResult": ".",
+        "searchPic": ".//img",
+        "chapterRoads": "//div[.//a[@data-line and @data-episode and @dataid]][not(.//div[.//a[@data-line and @data-episode and @dataid]])]",
+        "chapterResult": ".//a[@data-line and @data-episode and @dataid]",
+        "baseURL": "https://www.4kvms.com",
+        "searchURL": "https://www.4kvms.com/search?q=@keyword"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ]
+}
