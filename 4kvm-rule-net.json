@@ -1,0 +1,15 @@
+{
+  "name": "4K影视",
+  "searchMode": "web",
+  "chapterMode": "web",
+  "category": "movie",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+  "searchList": "//a[@data-vod and starts-with(@href,'/play/')]",
+  "searchName": ".//h3|.//img[@alt]",
+  "searchResult": ".",
+  "searchPic": ".//img",
+  "chapterRoads": "//div[.//a[@data-line and @data-episode and @dataid]][not(.//div[.//a[@data-line and @data-episode and @dataid]])]",
+  "chapterResult": ".//a[@data-line and @data-episode and @dataid]",
+  "baseURL": "https://www.4kvm.net",
+  "searchURL": "https://www.4kvm.net/search?q=@keyword"
+}
