@@ -11,19 +11,30 @@
 
 ## 导入
 
-把 raw 地址粘到 App 的「点播源」输入框即可：
+把下面的地址粘到 App 的「点播源」输入框即可。三条等价，哪条能拉通用哪条：
 
+**4K影视站群**
+
+```
+https://cdn.jsdelivr.net/gh/cubacupa/tvbox-sites@main/4kvm-sites.json
+```
 ```
 https://raw.githubusercontent.com/cubacupa/tvbox-sites/main/4kvm-sites.json
 ```
+```
+https://gh-proxy.com/https://raw.githubusercontent.com/cubacupa/tvbox-sites/main/4kvm-sites.json
+```
+
+**第三方 4K 合集**
 
 ```
-https://raw.githubusercontent.com/cubacupa/tvbox-sites/main/tvbox4k-fish.json
+https://cdn.jsdelivr.net/gh/cubacupa/tvbox-sites@main/tvbox4k-fish.json
 ```
 
-raw 地址两个注意点：
+## 地址选择的注意点
 
-- 必须是 `raw.githubusercontent.com`，换成 `github.com/.../blob/...` 拿到的是网页 HTML，导入会失败
+- `raw.githubusercontent.com` 在国内常被阻断，电视上更明显；`cdn.jsdelivr.net` 一般最稳，但要等它缓存刷新（提交后约几分钟到几十分钟）
+- 三条里 `github.com/.../blob/...` 那种**网页地址**不能用，拿到的是 HTML，导入会报「解析出 0 个站点」
 - 仓库必须是 public。私有仓的 raw 要带 token，App 拉不到
 
 ## 说明
